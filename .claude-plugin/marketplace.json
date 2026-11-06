@@ -1,0 +1,12 @@
+{
+  "name": "usage-band",
+  "owner": { "name": "Hayato Mikami" },
+  "description": "See your Claude plan's 5-hour and weekly usage in the macOS menu bar, without handling any credentials",
+  "plugins": [
+    {
+      "name": "usage-band",
+      "source": "./plugins/usage-band",
+      "description": "Writes your plan usage to ~/.claude/plan-usage.json for a menu bar, or shows it as a band above the prompt"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "usage-band",
+  "version": "0.1.0",
+  "description": "Shows your Claude plan's 5-hour and weekly usage, either by writing it to a file (for a menu bar) or as a band above the prompt",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "display": {
+      "type": "string",
+      "title": "Display",
+      "description": "file: write to ~/.claude/plan-usage.json only (shown by SwiftBar or similar) / band: show above the prompt / both: do both",
+      "options": ["file", "band", "both"],
+      "default": "file"
+    }
+  }
+}
